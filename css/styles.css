@@ -25,13 +25,13 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-other-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .menu {
   font-weight: 500;
@@ -41,17 +41,29 @@ body {
   color: #2e2f42;
 }
 .page-address {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
 /* ========= /Page header */
 
 /* ========= Hero section */
+.first-section {
+  background-color: #2e2f42;
+}
 .main-headline {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -62,6 +74,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
 }
 
 .second-section-headline {
@@ -77,13 +94,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.third-section {
+  background-color: #f4f4fd;
+}
 .third-section-headline {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.third-section-menu {
+  background-color: #ffffff;
 }
 .people-names {
   font-weight: 500;
@@ -99,13 +123,14 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.fourth-section {
+.fourth-section-headline {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-sections {
   font-weight: 500;
@@ -115,23 +140,27 @@ body {
   color: #2e2f42;
 }
 .portfolio-text {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* ========= /Hero section */
 /* ========= /Footer section */
+.page-footer {
+  background-color: #2e2f42;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-logo-other-color {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
@@ -139,4 +168,5 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 /* ========= /Footer section */
