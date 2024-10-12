@@ -28,10 +28,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .logo-other-color {
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .menu {
   font-weight: 500;
@@ -157,10 +157,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-logo-other-color {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-text {
   font-size: 16px;
